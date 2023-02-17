@@ -1,4 +1,4 @@
-# Exploit code
+# Exploit code v Tool
 
 > Repo này tạo ra để lưu exploit python code. Hiện tại là như thế hoặc ...không.
 ## Update thì viết vào đây
@@ -6,6 +6,10 @@
 ### November 25, 2022
 - Push ATutor exploit code
 - Push XOR - bypass waf
+
+### February 17, 2023
+- Create directory **tools**
+- Push get IPs from domains (kiểu vậy :>)
 
 ## Một số exploit
 
@@ -33,3 +37,9 @@ result   1010000 = 80 = P
 
 A^S^B = P
 ```
+
+## Tool
+
+### getIpsFromDomains
+
+- `python getIpsFromDomains.py <path_to_domains_file> <output_file>`
