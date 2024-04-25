@@ -11,6 +11,9 @@
 - Create directory **tools**
 - Push get IPs from domains (kiểu vậy :>)
 
+### April 25, 2024
+- Push healthcheck_by_ping.sh (commit lần đầu trong năm :>)
+
 ## Một số exploit
 
 ### ATutor 2.2.1
@@ -43,3 +46,6 @@ A^S^B = P
 ### getIpsFromDomains
 
 - `python getIpsFromDomains.py <path_to_domains_file> <output_file>`
+
+### healthcheck_by_ping
+- `./healthcheck_by_ping.sh ip.txt`
