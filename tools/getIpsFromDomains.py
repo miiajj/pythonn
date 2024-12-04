@@ -17,3 +17,4 @@ with open(args.input_file, 'r') as f, open(args.output_file, 'w') as out:
             result = f"Error resolving {domain}"
         print(result)
         out.write(result + '\n')
+
